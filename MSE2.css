@@ -228,21 +228,7 @@ button{
 .hambager.active .hambager-bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
 }
-.menu{
-    background-color:rgb(7, 54, 87);
-    width:200px;
-    overflow: hidden;
-    height:50%;   
-    display:block;
-    float: right;
-    
-}
-.menu ul{
-    display:none; 
-    margin-top: 30px;
-    padding:10px;
-    
-}
+
 .about{
     font-weight: bold;
     transition: .7s ease;
@@ -252,10 +238,7 @@ button{
     background-color:rgb(79, 84, 128);
     border-radius: 20px;
 }
-.menu.active ul{
-    display: block; 
 
-}
  .menu a, .fa-comment{
     text-decoration: none;
     color: #fff;
